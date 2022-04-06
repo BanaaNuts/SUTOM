@@ -3,7 +3,7 @@ SUTOM refait en C, affichage dans la console.
 
 ## Utilisation
 
-Compiler `sutom.c`, l'exécutable résultant doit-être placé au même niveau que les fichier `words.txt` et `graphics2.txt`. 
+Compiler `sutom.c`, l'exécutable résultant doit-être placé au même niveau que les fichier `words.txt` et `graphics2.txt`.  
 Sinon télécharger un éxécutable directement depuis Releases ainsi que le code source au format zip, extraire le zip et placer les fichiers `words.txt` et `graphics2.txt` au même niveau que l'éxécutable.
 
 ## Sources
