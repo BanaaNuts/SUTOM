@@ -1,0 +1,10 @@
+- PROBLEME: cleanWord() est codé de manière à gérer les caractères accentués encodé en utf-8 sur 2 octets !
+exemple avec 'é':
+(depuis fichier encodé en UTF-8):
+conversion UTF-8 vers ASCII signé: -61/-87: deux octets
+conversion ASCII signé vers unsigned: 195/169: deux octets
+
+(depuis saisie clavier en ASCII):
+ASCII signé: -126
+ASCII unsigned: 130
+quand cleanWord() est appelé avec un string encodé en ASCII: mauvaise détection des caractères accentués (pas de détection du caractère 195 comme en UTF-8)
